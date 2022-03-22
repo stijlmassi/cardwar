@@ -1,0 +1,19 @@
+nav p {
+    padding: .5rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border-bottom: .2rem solid;
+    border-radius: .2rem;
+}
+
+nav p:hover, .selectedPageNavBar {
+    margin-left: .15rem;
+    cursor: pointer;
+}
+
+.selectedPageNavBar{
+    font-size: 1.3rem;
+}
+

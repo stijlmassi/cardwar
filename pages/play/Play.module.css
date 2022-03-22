@@ -1,0 +1,10 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opponentsHandArea{
+    display: grid;
+    grid-template-columns: 1fr 11fr 1fr;
+}

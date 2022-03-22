@@ -1,0 +1,16 @@
+.container {
+    background-color: red;
+    border-radius: .2rem;
+    color: white;
+    text-align: center;
+}
+
+.underTitle{
+    color: white;
+    text-align: center;
+}
+
+.points {
+    padding-top: .6rem;
+    font-size: 1.4rem;
+}

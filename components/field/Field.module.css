@@ -1,0 +1,11 @@
+.container {
+    padding: .1rem;
+    background-color: #ebc4ff;
+    margin: .2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row wrap;
+}

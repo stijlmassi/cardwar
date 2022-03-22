@@ -1,0 +1,22 @@
+.container {
+    background-color: #d6f3ff;
+    border-radius: .2rem;
+    border: #97ceff .4rem solid;
+    margin: .1rem;
+    width: 7rem;
+    height: 12rem;
+
+}
+
+.power {
+
+}
+
+.description {
+    font-size: .8rem;
+    text-align: center;
+}
+
+.image {
+
+}

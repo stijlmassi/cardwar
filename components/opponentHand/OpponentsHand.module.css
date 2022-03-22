@@ -1,0 +1,15 @@
+.opponentHand {
+    background-color: bisque;
+    width: 100%;
+    padding: .3rem;
+    margin: .1rem;
+}
+
+.card {
+    height: 3rem;
+    width: 1.8rem;
+    background-color: rgba(147, 64, 1, 0.94);
+    border: #421e00 .2rem solid;
+    margin: .1em;
+    border-radius: .2rem;
+}
