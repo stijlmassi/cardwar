@@ -4,19 +4,34 @@
     border: #97ceff .4rem solid;
     margin: .1rem;
     width: 7rem;
-    height: 12rem;
-
+    height: 11.5rem;
 }
 
 .power {
-
+    padding-left: .3rem;
+    color: #00238a;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white;
 }
 
 .description {
+    padding-top: .6rem;
     font-size: .8rem;
     text-align: center;
 }
 
 .image {
 
+}
+
+@media (max-width: 822px) {
+    .container{
+        width: 4rem;
+        height: 6.5rem;
+    }
+
+    .description{
+        visibility: hidden;
+    }
 }

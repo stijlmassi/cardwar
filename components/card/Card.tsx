@@ -17,8 +17,7 @@ const Card: FunctionComponent<Props> = ({
     return(
         <div className={`flex flex-direction-column centered-vertically ${styles.container}`}>
             <p className={styles.power}>{type.power}</p>
-            <Image src={`${type.imagePath}`} width={40} height={80}/>
-            <p className={styles.description}>{type.description}</p>
+            <p className={` ${styles.description}`}>{type.description}</p>
         </div>
     )
 }

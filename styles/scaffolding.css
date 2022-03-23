@@ -30,6 +30,10 @@
     align-content: flex-start;
 }
 
+.end-vertically {
+    align-content: flex-end;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }

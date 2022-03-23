@@ -2,13 +2,13 @@ export const background = (dark: boolean) => {
 
     if(dark){
         return `
-        .mainContainer {
+        .container {
             background-color: #363636;
         }
     `
     } else {
         return `
-        .mainContainer {
+        .container {
             background-color: #e3e3e3;
         }
         `
