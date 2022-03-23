@@ -7,7 +7,7 @@ const OpponentsHand = () => {
 
     let cards = [];
     for(let i = 0; i < hand; i++){
-        cards.push(<span className={`${styles.card}`}/>);
+        cards.push(<span  key={i} className={`${styles.card}`}/>);
     }
 
 
